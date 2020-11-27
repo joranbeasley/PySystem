@@ -5,6 +5,7 @@ setuptools.setup(
     version=pySystem.__version__,
     author="Joran Beasley",
     author_email="joranbeasley@gmail.com",
+    url="https://github.com/joranbeasley/PySystem",
     description="A simple tool to help interfacing with simple os calls",
     packages=['pySystem'],
     classifiers=[
