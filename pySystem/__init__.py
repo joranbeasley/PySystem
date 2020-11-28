@@ -3,7 +3,7 @@ try:
     import six
 except:
     class six:
-        string_types = 'unicode'
+        string_types = str
 __version__ = "1.0.3"
 class System:
     """
