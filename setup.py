@@ -8,6 +8,7 @@ setuptools.setup(
     url="https://github.com/joranbeasley/PySystem",
     description="A simple tool to help interfacing with simple os calls",
     packages=['pySystem'],
+    install_requires=['six'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

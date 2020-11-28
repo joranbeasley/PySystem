@@ -1,5 +1,5 @@
-import os
-__version__ = "1.0.0"
+import os,six
+__version__ = "1.0.2"
 class System:
     """
 
