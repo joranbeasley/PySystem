@@ -1,5 +1,10 @@
-import os,six
-__version__ = "1.0.2"
+import os
+try:
+    import six
+except:
+    class six:
+        string_types = 'unicode'
+__version__ = "1.0.3"
 class System:
     """
 
